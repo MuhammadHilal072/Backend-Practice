@@ -3,28 +3,28 @@
 // const g = 9.8;
 // const PI = 3.14;
 
-// module.exports = 123;
-// module.exports = "Hello";
+module.exports = 123;
+module.exports = "Hello";
 
-// const obj = {
-//     sum : sum,
-//     mul : mul,
-//     g : g,
-//     PI : PI
-// }
-// module.exports = obj;
+const obj = {
+    sum : sum,
+    mul : mul,
+    g : g,
+    PI : PI
+}
+module.exports = obj;
 
-// module.exports = {
-//     sum : sum,
-//     mul : mul,
-//     g : g,
-//     PI : PI
-// } 
+module.exports = {
+    sum : sum,
+    mul : mul,
+    g : g,
+    PI : PI
+} 
 
-// module.exports.sum = (a, b) => a + b;
-// module.exports.mul = (a, b) => a * b;
-// module.exports.g = 9.8;
-// module.exports.PI = 3.14;
+module.exports.sum = (a, b) => a + b;
+module.exports.mul = (a, b) => a * b;
+module.exports.g = 9.8;
+module.exports.PI = 3.14;
 
 
 export const sum = (a, b) => a + b;
